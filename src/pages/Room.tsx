@@ -5,10 +5,11 @@ import { Question } from "../components/Question";
 import { useParams } from "react-router-dom";
 import { useAuth } from "../hooks/useAuth";
 import { database } from "../services/firebase";
+import { useRoom } from "../hooks/useRoom";
+
 import logoImg from "../assets/images/logo.svg";
 
 import "../styles/room.scss";
-import { useRoom } from "../hooks/useRoom";
 
 type RoomParams = {
   id: string;
