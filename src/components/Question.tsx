@@ -25,7 +25,7 @@ export function Question({
     <div
       className={cx(
         "question",
-        { aswered: isAnswered },
+        { answered: isAnswered },
         { highlighted: isHighlighted }
       )}
     >
