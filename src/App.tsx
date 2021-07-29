@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
+import GlobalStyle from "./styles/global"
 import light from './styles/themes/light'
 
 import { Home } from "./pages/Home";
@@ -12,6 +13,7 @@ import { AuthContextProvider } from "./contexts/AuthContext";
 function App() {
   return (
     <ThemeProvider theme={light}>
+      <GlobalStyle />
       <BrowserRouter>
         <AuthContextProvider>
           <Switch>
