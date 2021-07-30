@@ -4,7 +4,8 @@ export const Auth = styled.div`
   display: flex;
   align-items: stretch;
   height: 100vh;
-  background: #f8f8f8;
+  /* background: #f8f8f8; */
+  /*getting bg from light.ts && styled.d.ts*/
 
   @media (max-width: 840px) {
     aside {

@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import GlobalStyle from "./styles/global"
-import light from './styles/themes/light'
+import GlobalStyle from "./styles/global";
+import light from "./styles/themes/light";
 
 import { Home } from "./pages/Home";
 import { NewRoom } from "./pages/NewRoom";
